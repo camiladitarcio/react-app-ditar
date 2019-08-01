@@ -1,0 +1,11 @@
+.card-container {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.card-description {
+}

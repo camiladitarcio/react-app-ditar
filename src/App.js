@@ -1,13 +1,16 @@
 import React from 'react';
-import './App.css';
 import List from './components/list';
-import Car from './components/car';
+import Button from './components/button';
+import './App.css';
 
 function App() {
+  const handleClick = () => alert('Me clickeasteeeee')
   return (
-    <div>
-      <List>  </List>
-      <Car> </Car>
+    <div className="container">
+      <List />
+      <Button onClick={handleClick}>
+        Presioname
+      </Button>
     </div>
   )
 };

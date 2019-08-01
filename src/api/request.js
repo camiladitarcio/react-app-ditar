@@ -1,3 +1,5 @@
+const apiUrl = "https://fathomless-cove-96315.herokuapp.com/car";
+
 const fetchConfig = {
     method: "GET",
     headers: {
