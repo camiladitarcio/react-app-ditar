@@ -1,18 +1,13 @@
-import React from 'react';
-import List from './components/list';
-import Button from './components/button';
-import './App.css';
+import React from "react";
+import Home from "./screen/home";
+import "./App.css";
 
 function App() {
-  const handleClick = () => alert('Me clickeasteeeee')
   return (
     <div className="container">
-      <List />
-      <Button onClick={handleClick}>
-        Presioname
-      </Button>
+      <Home />
     </div>
-  )
-};
+  );
+}
 
 export default App;

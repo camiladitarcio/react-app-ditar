@@ -1,0 +1,39 @@
+.btn {
+  right: 40px;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 2px;
+  transition: background-color 0.3s;
+  border-width: 0;
+  margin: 5px;
+  outline: none;
+}
+
+.float {
+  width: 60px;
+  box-shadow: 2px 2px 3px #999;
+  border-radius: 50px;
+  height: 60px;
+  bottom: 40px;
+  position: fixed;
+}
+
+.primary {
+  background: #2ecc71;
+}
+
+.primary:hover {
+  cursor: pointer;
+  background-color: #27ae60 !important;
+}
+
+.secondary {
+  background: #e74c3c !important;
+}
+
+.secondary:hover {
+    cursor: pointer;
+    background-color: #c0392b !important;
+}

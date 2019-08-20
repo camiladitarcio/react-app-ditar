@@ -9,9 +9,6 @@ const pugImage = "https://previews.123rf.com/images/tanjaesser/tanjaesser1706/ta
 
 // Statefull component
 class List extends React.Component {
-
-    // No es necesario utilizar un constructor, si solo vas a usarlo para declarar el state, puedes sacarlo, asi
-    // como lo tengo de esta manera 
     state = {
         error: null,
         isLoaded: false,
@@ -34,6 +31,7 @@ class List extends React.Component {
     }
 
     render() {
+        const { handleDeleteModal, handleEditModal } = this.props;
         if (!this.state.items) {
             return null
         } else {
@@ -44,13 +42,15 @@ class List extends React.Component {
                             <Col sm={4} className="car-column">
                                 <Car
                                     image= {pugImage}
-                                    key={car.id} 
+                                    id={car.id} 
                                     model={car.model}
                                     make={car.make}
                                     trim={car.trim}
                                     fuelType={car.fueltype}
                                     year={car.year}
                                     colors={car.colors}
+                                    handleDeleteModal={handleDeleteModal}
+                                    handleEditModal={handleEditModal}
                                 />
                             </Col>
                         )}
