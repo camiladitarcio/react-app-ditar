@@ -1,0 +1,18 @@
+label {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+input {
+    margin-bottom: 10px;
+    outline: none;
+    width: 100%;
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    padding: 10px 0px 10px 10px;
+    color: gray;
+    font-weight: 500;
+    transition: 0.3s ease;
+}

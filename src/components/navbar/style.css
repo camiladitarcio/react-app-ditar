@@ -1,0 +1,10 @@
+.navBar-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.navBar-title {
+    color: white;
+    margin: 15px;
+}
